@@ -1,0 +1,28 @@
+.list-of-notes-div {
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.list-of-notes-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.calories-title {
+    font-weight: initial;
+}
+
+.add-btn{
+    height: 40px;
+    width: 210px;
+    background: white;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 40px;
+}
