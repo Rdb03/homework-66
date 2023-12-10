@@ -1,4 +1,4 @@
-import React, {useCallback, useEffect, useState} from 'react';
+import {useCallback, useEffect, useState} from 'react';
 import TheNote from "../../components/TheNote/TheNote";
 import {NavLink} from "react-router-dom";
 import {INotes, INotesMutation} from "../../type";

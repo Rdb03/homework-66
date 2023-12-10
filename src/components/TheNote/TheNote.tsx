@@ -1,8 +1,8 @@
 import React from 'react';
 import {INotes} from "../../type";
-import './TheNote.css';
 import {NavLink} from "react-router-dom";
 import ButtonSpinner from "../Spinner/ButtonSpinner";
+import './TheNote.css';
 
 interface Props {
     notes: INotes;

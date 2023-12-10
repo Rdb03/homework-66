@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import {INotesMutation} from "../../type";
-import './NotesForm.css';
 import ButtonSpinner from "../Spinner/ButtonSpinner";
+import './NotesForm.css';
 
 const initialState: INotesMutation = {
     dish: '',
@@ -63,7 +63,7 @@ const NotesForm: React.FC<Props> = ({onSubmit, existingNote = initialState, isEd
                 name="dish"
                 value={notes.dish}
                 required
-                type='text'
+                type="text"
             />
             <div className="newNote-kcal">
                 <label className="label-form" htmlFor="kcal">Enter kcal:</label>
