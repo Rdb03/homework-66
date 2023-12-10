@@ -1,0 +1,11 @@
+.toolBar{
+    padding: 20px;
+    border-bottom: 2px solid black;
+    box-sizing: border-box;
+}
+
+.toolBar-title {
+    color: black;
+    font-size: 30px;
+    text-decoration: none;
+}

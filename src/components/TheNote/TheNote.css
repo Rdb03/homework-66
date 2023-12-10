@@ -1,0 +1,40 @@
+.note-div {
+    border: 2px solid black;
+    margin: 50px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.note-internal-div{
+    display: flex;
+    align-items: center;
+}
+
+.note-div-btn {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+
+.note-btn {
+    margin: 10px 0;
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    background: white;
+    cursor: pointer;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 40px;
+    color: black;
+    text-decoration: none;
+}
+
+.note-kcal {
+    font-weight: bold;
+    margin-left: 10px;
+}

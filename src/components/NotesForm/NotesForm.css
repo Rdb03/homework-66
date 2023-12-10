@@ -1,0 +1,53 @@
+.newNote-form {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    padding: 20px;
+}
+
+.label-form {
+    margin: 5px;
+    font-weight: bolder;
+}
+
+.newNote-select {
+    width: 120px;
+    height: 50px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.newNote-input {
+    height: 50px;
+    margin: 10px 0;
+    font-size: 20px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.newNote-kcal {
+    display: flex;
+    flex-direction: column;
+}
+
+.note-kcal.kcal {
+    font-size: 20px;
+}
+
+.newNote-input.kcal {
+    width: 210px;
+}
+
+.newNote-btn {
+    width: 200px;
+    margin: 20px 0;
+    height: 50px;
+    cursor: pointer;
+    background: white;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 45px;
+    line-height: 50px;
+}
