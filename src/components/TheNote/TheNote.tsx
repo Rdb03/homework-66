@@ -2,7 +2,7 @@ import React from 'react';
 import {INotes} from "../../type";
 import {NavLink} from "react-router-dom";
 import ButtonSpinner from "../Spinner/ButtonSpinner";
-import './TheNote.css';
+import './TheNote.css'
 
 interface Props {
     notes: INotes;
@@ -19,7 +19,7 @@ const TheNote: React.FC<Props> = ({notes, onDeleteNote, isLoadingDelete = false}
     return (
         <div className="note-div">
             <div>
-                <p className="note-time">{notes.time}</p>
+                    <p className="note-time">{notes.time}</p>
                 <p className="note-txt">{notes.dish}</p>
             </div>
             <div className="note-internal-div">
